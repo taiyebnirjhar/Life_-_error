@@ -1,4 +1,4 @@
-# Life\_-_error
+# Life\_is_error
 
 #### sh: react-scripts: command not found
 
