@@ -18,6 +18,6 @@
 
 ####  Firebase is not defined (firebase deploy),   even after installed globally
 
-###### before deploying add: <code>alias firebase="`npm config get prefix`/bin/firebase"</code>
+###### before deploying add these line in terminal: <code>alias firebase="`npm config get prefix`/bin/firebase"</code>
 
 --- 
