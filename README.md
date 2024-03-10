@@ -21,3 +21,11 @@
 ###### before deploying add these line in terminal: <code>alias firebase="`npm config get prefix`/bin/firebase"</code>
 
 --- 
+
+#### error: RPC failed; curl 18 transfer closed with outstanding read data remaining
+
+###### It happens on a slow internet connection when trying to clone a decently huge git repository. The most common issue is that the connection closes and the whole clone is canceled. to fix it follow :
+<code>$ git clone http://github.com/large-repository --depth 1 
+$ cd large-repository 
+$ git fetch unshallow
+</code>
